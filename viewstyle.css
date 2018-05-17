@@ -1,0 +1,78 @@
+.media{
+  margin:3%;
+}
+
+.media-body{
+  margin-right:3%;
+}
+
+.page-header{
+  padding: 10px;
+  margin: 0 20px 0 20px;
+  width: 100%;
+}
+
+.page-header-ex{
+  padding: 20px;
+  margin: 0 20px 0 20px;
+  width: 100%;
+}
+.page-content{
+  overflow: hidden;
+}
+
+.introbox{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+
+  float:left;
+}
+
+.test{
+  float: left;
+}
+
+.media-body{
+  margin-left: 30px;
+}
+
+.media-content{
+  padding: 10px;
+}
+
+.user-comment {
+  background: #f9f9f9;
+  padding: 10px;
+  transition: all 400ms ease-in-out;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 300px;
+  max-width: 100%;
+}
+:host(:hover) {
+  background: #ccc;
+}
+.user-comment div {
+  position: relative;
+}
+.user-comment header {
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.user-comment h3 {
+  margin: 0 !important;
+}
+.user-comment textarea {
+  font-family: inherit;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+}
+.user-comment footer {
+  position: relative;
+  bottom: 10px;
+  right: 5px;
+  margin:10px 0 10px 0;
+  float:right;
+}

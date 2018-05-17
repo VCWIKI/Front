@@ -1,0 +1,214 @@
+body {
+  font:14px/1.8 Arial, Helvetica, sans-serif;
+  padding-top: 00px;
+}
+
+
+.container {
+  background: url('img/bg.png') repeat-y #fff;
+  overflow:hidden;
+}
+
+
+h4{
+    text-indent: 10px;
+}
+
+.row {
+  margin:30px;
+}
+
+.frame {
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  border: 1px solid $aaa;
+}
+
+.header {
+  padding:20px 10px;
+  text-align: center;
+  background: #ddd;
+  margin-bottom: 20px;
+
+}
+
+.logo {
+  font-size:2em;
+  font-weight: bold;
+
+  color: #fff;
+  display: inline-block;
+  padding: 0px;
+}
+
+.logo a:link { color: white; text-decoration: none;}
+.logo  a:visited { color: white; text-decoration: none;}
+.logo  a:hover { color: white; text-decoration: none;}
+
+
+.nav {
+  float : left;
+  width: 150px;
+  background: #333;
+  color:#fff;
+  margin-right:2%;
+}
+
+.nav-list {
+  list-style:none;
+  margin:0;
+  padding: 10px 0;
+
+}
+
+.nav-item {
+  margin : 4px 0;
+
+}
+
+.nav-link {
+  display:black;
+  text-decoration: none;
+  padding: 4px 10px;
+  color: #fff;
+}
+
+.nav-link:hover {
+  background: #5457de;
+}
+
+.content {
+
+  width:70%;
+  margin-left:160px;
+}
+
+.content_header {
+  width:100%;
+}
+
+button.budgetbtn{
+  width:50px;
+  height:60px;
+}
+
+table.budget {
+  background-color: cadetblue;
+  border-collapse: collapse;
+  margin: 5px;
+  float:right;
+}
+
+table.budget td{
+  border: 1px solid white;
+  padding:3px 6px;
+}
+
+table.budget th{
+  border: 1px solid white;
+  padding:3px 6px;
+}
+
+caption {
+
+}
+
+table.cal {
+	border-collapse: collapse;
+	background-color: #bde2ea;
+  margin-right:1%;
+  float:left;
+}
+
+table.cal th {
+  text-align:center;
+  border:1.5px solid ghostwhite;
+}
+
+table.cal td {
+	vertical-align: middle;
+  border:1.5px solid ghostwhite;
+  padding: 0.4em;
+  text-align:right;
+  width:8.5%;
+  line-height: 15px;
+}
+
+.day_header {
+  width:100%;
+  display: inline;
+  text-align:left;
+  float:left;
+  color:#0a406e;
+  font-size:16px;
+  margin:1px 2px 8px 1px;
+}
+
+button.add_btn {
+    float:right;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+    color: #606060;
+    font-size: 17px;
+    font-style: bold;
+    padding: 0px 5px 3px 7px;
+    cursor: pointer;
+
+}
+
+table.week_total{
+  float:left;
+  width:13%;
+  text-align: center;
+  background-color: #e7e8ed;
+  border-collapse: collapse;
+
+}
+
+table.week_total th{
+  border: 4px solid white;
+}
+
+table.week_total td{
+  border: 4px solid white;
+  height: 79px;
+  font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  border-top: 1px solid #aaa;
+  margin: 20px 20px 0;
+  font-size: 12 px;
+}
+
+
+.statistics td{
+  border: 0px solid white;
+  padding:1px 2px;
+  background-color: #e7e8ed;
+}
+
+.statistics th{
+  border: 0px solid white;
+  color:white;
+  padding:1px 2px;
+  background-color: #606060;
+}
+
+.submit_button button {
+  padding: 5px 12px;
+    border-radius: 3px;
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.submit_button button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
